@@ -28,12 +28,12 @@ unset($_SESSION['error']);
         <form method="POST" action="dashboard.php">
             <div class="form-group">
                 <label>Full Name:</label>
-                <input type="text" name="name" value="<?php echo htmlspecialchars($saved_name); ?>" placeholder="Enter your name" required>
+                <input type="text" name="name" value="<?php echo htmlspecialchars($saved_name); ?>" placeholder="Enter your name" >
             </div>
             
             <div class="form-group">
                 <label>Email Address:</label>
-                <input type="email" name="email" placeholder="your@email.com" required>
+                <input type="email" name="email" placeholder="your@email.com">
             </div>
             
             <button type="submit">Login to Dashboard</button>
