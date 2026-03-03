@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate
     if(empty($name) || empty($email)) {
         $_SESSION['error'] = "All fields are required!";
-        header("Location: form.php");
+       header("Location: form.php");
         exit();
     }
     
